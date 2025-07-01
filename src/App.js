@@ -20,7 +20,21 @@ useEffect(()=>{
 
 
   return (
-    <h1>App</h1>
+    <div className="app">
+      <h1>MovieMedia</h1>
+      <div className="search">
+        <input
+          placeholder="Search for movies"
+          value="spiderman"
+          onChange={()=>{}}
+        />
+
+        <img
+          src={searchIcon}
+          alt="search"
+          onClick={() => {}}/>
+      </div>
+    </div>
   );
 }
 
